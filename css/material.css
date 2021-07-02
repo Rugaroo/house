@@ -1,0 +1,68 @@
+.promo {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)), url(../img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.windows,.pir {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subtitle {
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+.window-text {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.windows .container img {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.pir {
+  background: #eceaea;
+}
+.half-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  
+}
+.half-container:last-child {
+  margin-top: 100px;
+}
+.pir-img {
+  margin-right: 40px;
+}
+
+.pir-text {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.pir-img-banya {
+  width: 50%;
+  margin-right: 40px;
+}
+.pir-prof-descr {
+  width: 50%;
+}
+.pir-prof-descr:first-child {
+  margin-right: 50px;
+}
+.pir-prof-descr .pir-text {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.pir-text-descr {
+  font-size: 18px;
+}

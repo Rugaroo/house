@@ -6,11 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+
+
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Add the slick-theme.css if you want default styling -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
   <title>ЭкоСтрой</title>
 </head>
 
@@ -22,10 +30,11 @@
       </a>
       <nav class="nav">
         <ul class="nav-list">
-          <li class="nav-item"><a href="#" class="nav-link">О нас</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Планировки</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+          <li class="nav-item"><a href="material.html" class="nav-link">Материалы</a></li>
+          <!-- <li class="nav-item"><a href="#projects" class="nav-link">Проекты</a></li>
+          <li class="nav-item"><a href="#house-kit" class="nav-link">Домокомплект</a></li> -->
+          <li class="nav-item"><a href="#footer" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
       <a href="tel:+79219130126" class="phone">+7 (921) 913-01-26</a>
@@ -44,91 +53,146 @@
   <main>
     <section class="promo">
       <div class="container">
-        <div class="constructions">
-          <div class="construction">
-            <img src="img/public_white_24dp.svg" alt="world">
-            <span>Работаем в любой части России</span>
-          </div>
-          <div class="construction">
-            <img src="img/home_white_24dp.svg" alt="home">
-            <span>Свободная планировка</span>
-          </div>
-        </div>
 
         <div class="promo-descr">
           <h1 class="h1">
-            ПСК ЭкоСтрой <br>
-            в Санкт-Петербурге
+            ДОМ ПО ТЕХНОЛОГИИ ФАХВЕРК ЗА 24 ДНЯ ОТ <span>2 500 000 РУБ!</span>
           </h1>
           <p class="promo-text">
-            Строительство домов по технологии Фахверк. <br>
-            Европейское качество, повышенная энергоэффективность.
+            Построим экологичный энергоэффективный дом А++ с панорамным остеклением по типовому или индивидуальному
+            проекту под ключ.
           </p>
-          <a href="#" class="promo-btn">Проекты</a>
-          <div class="advantages-list">
-            <div class="advantage-card">
-              <img src="img/done_white_24dp.svg" alt="done">
-              <div class="advantage-title">Экологичные материалы</div>
-            </div>
-            <div class="advantage-card">
-              <img src="img/done_white_24dp.svg" alt="done">
-              <div class="advantage-title">Энергоэффективность А++</div>
-            </div>
-            <div class="advantage-card">
-              <img src="img/done_white_24dp.svg" alt="done">
-              <div class="advantage-title">Строительство под ключ</div>
-            </div>
-            <div class="advantage-card">
-              <img src="img/done_white_24dp.svg" alt="done">
-              <div class="advantage-title">Сборка дома за 24 дня</div>
-            </div>
-            <div class="advantage-card">
-              <img src="img/done_white_24dp.svg" alt="done">
-              <div class="advantage-title">Гарантия качества 25 лет</div>
-            </div>
+          <div class="promo-btns">
+            <a href="#" class="promo-btn">Проекты</a>
+            <a href="#" class="promo-btn">Домокомплекты</a>
           </div>
+
         </div>
 
 
       </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <h2 class="section-heading">О нас</h2>
         <p class="about-text">ПСК ЭкоСтрой — ведущая компания по строительству теплых, энергоэффективных фахверковых
           домов в России.
           Новый филиал в Санкт-Петербурге.</p>
+        <div class="about-list">
+          <div class="about-card">
+            <img src="img/hard-hat-solid.svg" alt="hat" class="about-icon">
+            <div class="about-card-title">Качество</div>
+            <div class="about-card-text">Ваш дом будут строить сертифицированные специалисты под строгим технадзором,
+              контролирующим каждый этап сборки дома. Гарантия на наши дома 10 лет</div>
+          </div>
+          <div class="about-card">
+            <img src="img/calendar-regular.svg" alt="сроки" class="about-icon">
+            <div class="about-card-title">Сроки</div>
+            <div class="about-card-text">Домокомплекты по типовым проектам ПСК Экостройзарезервированы для Вас на
+              заводе-изготовителе благодаря особому дилерскому соглашению. Вам не придется ждать начала строительства.
+            </div>
+          </div>
+          <div class="about-card">
+            <img src="img/chart-pie-solid.svg" alt="рассрочка" class="about-icon">
+            <div class="about-card-title">Рассрочка 0%</div>
+            <div class="about-card-text">Рассрочка 0% на строительство дома под ключ от нашей компании без участия
+              банков.Начните строить дом мечты уже сегодня!</div>
+          </div>
+          <div class="about-card">
+            <img src="img/exclamation-solid.svg" alt="качество" class="about-icon">
+            <div class="about-card-title">Контроль качества</div>
+            <div class="about-card-text">Обязательная фото-видео фиксация скрытых работ по каждому этапу сборки дома. В
+              любой момент Вы можете посмотреть как мы строим Ваш дом в режиме онлайн.</div>
+          </div>
+          <div class="about-card">
+            <img src="img/home-solid.svg" alt="home" class="about-icon">
+            <div class="about-card-title">Проектирование</div>
+            <div class="about-card-text">Вам нужен индивидуальный проект дома по технологии фахверк? Наш проектный отдел
+              разработает проект эргономичного и энергоэффективногодома по Вашим потребностям.</div>
+          </div>
+          <div class="about-card">
+            <img src="img/globe-solid.svg" alt="" class="about-icon">
+            <div class="about-card-title">Техобслуживание</div>
+            <div class="about-card-text">Проводим ежегодное техническое обслуживание Вашего дома. Внимательно проверяем
+              каждый узел, от фундамента до кровли. Возможно продление гарантии.</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="questions">
+      <div class="container">
+        <h2 class="section-heading">Есть вопросы?</h2>
+        <p class="question-text">Наш менеджер ответит на любые вопросы по строительству Вашего дома в чате WhatsApp. Это
+          Вас ни к чему не обязывает.</p>
+        <a href="#" class="question-btn">Чат с менеджером</a>
       </div>
     </section>
     <section class="technology">
-      <div class="technology-instr technology-bg"></div>
+      <div class="technology-instr technology-bg">
+        <div class="slider-title">Этапы производства</div>
+        <div class="carousel slider responsive">
+          <div class="slider-item">
+            <img src="img/fahverk_1br_1.tif (2).jpg" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="img/fahverk_1br_1.tif (2).jpg" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="img/fahverk_1br_1.tif (2).jpg" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="img/fahverk_1br_1.tif (2).jpg" alt="">
+          </div>
+          
+
+
+        </div>
+
+      </div>
       <div class="technology-instr tecnology-descr">
         <h2 class="section-heading">ТЕХНОЛОГИЯ ФАХВЕРК</h2>
-        <p class="technology-text">Фахверк — надежная и одна из самых востребованных технологий строительства. Каркасная
-          конструкция,
-          фахверковая конструкция — тип строительной конструкции, при котором несущей основой служат вертикально
-          установленные несущие столбы, являющиеся опорной конструкцией здания. Эти несущие столбы и балки видны с
-          наружной стороны дома и придают зданию характерный вид.</p>
+        <p class="technology-text">Технология строительства Фахверк берет свое начало в Германии, а история
+          строительства
+          таких домов насчитывает более 700 лет. Отличительной особенностью фахверка является опорная конструкция из
+          клееного бруса, которая видна с наружной стороны дома и придает ему уникальный незабываемый вид, так
+          гармонично вписывающийся в природу Северо-Западного региона. <br>
+          Современный фахверк ПСК Экострой–это экологичный и
+          энергоэффективный дом (класс энергосбережения А++) с панорамным остеклением для постоянного проживания,
+          сохранивший очарование старинной Германии. Вы можете жить в таком доме сразу же после окончания строительства
+          – фахверковые дома не дают усадки.При строительстве наших домов мы используем только высококачественные
+          материалы в соответствии с ГОСТ, что обеспечивает безупречное качество строительства и максимальный срок
+          эксплуатации дома.</p>
       </div>
       <div class="technology-instr tech-flex">
         <div class="techn-instr-bg"></div>
         <div class="techn-description">
-          <div class="techn-title">Опорно-балочная система</div>
-          <p class="tech-text">Полный цикл производства клееного бруса на базе АО "Вышневолоцкий леспромхоз"</p>
+          <div class="techn-title">Силовой каркас</div>
+          <p class="tech-text">Опорно-балочная система наших домов изготовлена из прочного клееного бруса 160х200 (мы
+            также можем использовать брус 200-240х200 по желанию Заказчика). Конструктив наших домов изготовлен
+            Кировским
+            ЛПК на немецкой производственной линии Hundegger, что обеспечивает высочайшее качество и долговечную
+            эксплуатацию фахверковой конструкции. Высота потолков 2,4м-2,8м по выбору Заказчика.</p>
         </div>
       </div>
       <div class="technology-instr tech-flex">
         <div class="techn-instr-bg"></div>
         <div class="techn-description order">
           <div class="techn-title">Панорамное остекление</div>
-          <p class="tech-text">Двухкамерные энергоэффективные стеклопакеты с пластиковой дистанционной рамкой</p>
+          <p class="tech-text">Мультифункциональные энергоэффективные двухкамерные стеклопакеты Guardian Glass из
+            закаленного стекла сохраняют тепло за счет внутреннего заполнения пространства между стеклами аргоном и
+            максимально насыщают Ваш дом светом, использующим энергию солнечных лучей.</p>
         </div>
       </div>
       <div class="technology-instr tech-flex">
 
         <div class="techn-description">
           <div class="techn-title">PIR утеплитель</div>
-          <p class="tech-text">Металлические листы с PIR утеплителе 80мм с 3 слоями антикоррозийного покрытия</p>
+          <p class="tech-text">Один из важнейших материалов при строительстве дома по технологии Фахверк, обеспечивающий
+            сохранение тепла и позволяющий существенно снизить затраты на отопление. Ячеистая структура PIR утеплителя
+            Paroc, заполненная разряженным воздухом, позволяет избежать возникновения точки росы в утеплителе. Ваши
+            стены, пол и кровля будут надежно утеплены и защищены. Для дополнительной защиты мы проходим все швы
+            фольгированным скотчем, что исключает попадание влаги между швами утеплителя.</p>
         </div>
         <div class="techn-instr-bg order"></div>
       </div>
@@ -136,8 +200,10 @@
 
         <div class="techn-description">
           <div class="techn-title">Кровельные материалы</div>
-          <p class="tech-text">Кровля фальцевая глянцевая/матовая, натуральная Браас или мягкая Icopal на выбор
-            заказчика</p>
+          <p class="tech-text">Высококачественная металлочерепица, устойчивая к коррозии легко монтируется и
+            ремонтируется в случае необходимости. Более того, в строительстве наших домов мы используем только
+            металлочерепицу, проверенную снегопадами, присущими Северо-Западному региону. Вместо обычного утеплителя мы
+            используем PIR-плиты, обеспечивающие максимальное сохранение тепла.</p>
         </div>
         <div class="techn-instr-bg"></div>
       </div>
@@ -145,35 +211,62 @@
         <div class="techn-instr-bg"></div>
         <div class="techn-description">
           <div class="techn-title">Внешняя отделка</div>
-          <p class="tech-text">Пожароустойчивые фиброцементные японские панели Kmew устойчивые к выцветанию,
-            повреждениям, моются дождевой водой</p>
+          <p class="tech-text">В базовой комплектации при строительстве дома под ключ мы наносим качественную,
+            устойчивую к воздействию внешней среды штукатурку. По желанию Заказчика возможна внешняя отделка японскими
+            фибро-цементными панелями Kmey, сайдингом Кедралили планкеном, имитирующим отделку натуральным деревом.</p>
         </div>
       </div>
       <div class="technology-instr tech-flex">
         <div class="techn-instr-bg"></div>
         <div class="techn-description order">
           <div class="techn-title">Внутренняя отделка</div>
-          <p class="tech-text">Отделка комфорт класса или дизайнерская под ключ</p>
+          <p class="tech-text">На каждый типовой проект дома ПСК-Эскостроймы предложим типовой проект дизайна интерьера,
+            позволяющий создать максимально эргономичное пространство в неповторимом стиле. Наши типовые проекты уже
+            проверены временем и нашими Заказчиками.Мы также готовы произвести отделку по Вашему проекту дизайна
+            интерьера.</p>
         </div>
+      </div>
+
+      <div class="technology-instr tech-flex">
+
+        <div class="techn-description">
+          <div class="techn-title">Вентиляция</div>
+          <p class="tech-text">Клапанная вентиляция обеспечит необходимый микроклимат как в зимних условиях, так и в
+            летних. По желанию Заказчика, мы можем смонтировать дополнительную приточно-вытяжную систему вентиляции и
+            установить кондиционеры.</p>
+        </div>
+        <div class="techn-instr-bg order"></div>
+      </div>
+      <div class="technology-instr tech-flex">
+
+        <div class="techn-description">
+          <div class="techn-title">Фундамент</div>
+          <p class="tech-text">Для строительства дома по технологии Фахверк подойдет абсолютно любой тип фундамента, что
+            позволяет строить наши дома не зависимо от типа почвы. Как правило, наши Заказчики предпочитают
+            свайно-винтовой фундамент или монолитную плиту. Эти типы фундаментов имеют максимально долгий срок службы в
+            Северо-Западном регионе.</p>
+        </div>
+        <div class="techn-instr-bg"></div>
       </div>
     </section>
     <section class="individual-layout">
       <div class="container">
-        <h2 class="section-heading">Индивидуальная планировка</h2>
-        <p class="layout-text">Мы строим не только типовые проекты, но и по индивидуальным пожеланиям клиента. Мы
-          готовы поделиться своим опытом и знаниями, чтобы Ваш индивидуальный проект был уникальным, продуманным и
-          максимально энергоэффективным. </p>
-        <img src="img/BpFWDMzvJss.jpg" alt="">
+        <h2 class="section-heading">Закажите индивидуальный проект</h2>
+        <p class="layout-text">Многолетний опыт встроительстве фахверковых конструкций позволяет нашим проектировщикам
+          создавать действительно современные проекты, отличающиеся максимальной эргономичностью внутреннего
+          пространства и уникальным внешним видом, сохранившим традиции старинных домов Германии.</p>
+        <p class="layout-text">Хотите обсудить проектирование дома Вашей мечты? </p>
+        <a href="tel:+78127777777" class="layout-btn">+7 812 777 77 77</a>
       </div>
 
     </section>
 
     </section>
-    <section class="projects">
+    <section id="projects" class="projects">
       <div class="project-zipper">
         <h2 class="section-heading">Проекты</h2>
         <div class="opti-zipper">
-          <img src="img/BpFWDMzvJss.jpg" alt="" class="opti-img">
+          <img src="img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG" alt="fahverk" class="opti-img">
           <div class="opti-text">
             <div class="opti-title">OPTI</div>
             <div class="opti-line"></div>
@@ -181,19 +274,22 @@
             <div class="opti-live-area">Общая площадь дома: 127 м²</div>
             <div class="opti-light-area">Площадь с открытым вторым светом:110 м²</div>
             <div class="price">9999999 &#x20bd;</div>
+
+            <a href="#" class="project-link">Узнать больше >></a>
           </div>
         </div>
 
         <div class="projects-list">
           <div class="projects-card">
             <a href="#">
-              <img class="project-card-img" src="img/gTJ8W-Azmzs.jpg" alt="">
+              <img class="project-card-img" src="img/fahverk_1gr_1.jpg" alt="">
             </a>
             <div class="project-text">
               <div class="project-title">PROJECT</div>
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
@@ -207,6 +303,7 @@
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
@@ -219,11 +316,12 @@
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
 
-          <div class="projects-card">
+          <!-- <div class="projects-card">
             <a href="#">
               <img class="project-card-img" src="img/gTJ8W-Azmzs.jpg" alt="">
             </a>
@@ -232,19 +330,7 @@
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
-            </div>
-
-          </div>
-
-          <div class="projects-card">
-            <a href="#">
-              <img class="project-card-img" src="img/gTJ8W-Azmzs.jpg" alt="">
-            </a>
-            <div class="project-text">
-              <div class="project-title">PROJECT</div>
-              <div class="project-line"></div>
-              <div class="project-area">Общая площадь дома: 127 м²</div>
-              <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
@@ -258,6 +344,7 @@
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
@@ -271,6 +358,7 @@
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
@@ -284,6 +372,7 @@
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
@@ -297,11 +386,105 @@
               <div class="project-line"></div>
               <div class="project-area">Общая площадь дома: 127 м²</div>
               <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
             </div>
 
           </div>
 
+          <div class="projects-card">
+            <a href="#">
+              <img class="project-card-img" src="img/gTJ8W-Azmzs.jpg" alt="">
+            </a>
+            <div class="project-text">
+              <div class="project-title">PROJECT</div>
+              <div class="project-line"></div>
+              <div class="project-area">Общая площадь дома: 127 м²</div>
+              <div class="price">9999999 &#x20bd;</div>
+              <a href="#" class="project-link">Узнать больше >></a>
+            </div>
 
+          </div> -->
+
+        </div>
+      </div>
+    </section>
+    <section class="excursion">
+      <div class="container">
+        <h2 class="section-heading">Экскурсия на объект</h2>
+        <p>Лучше один раз увидеть? Организуем увлекательную экскурсию на один или несколько наших объектов, чтобы Вы
+          могли оценить качество строительства, увидеть фахверковый дом своими глазами, и посмотреть, как слаженно
+          работают наши бригады.</p>
+        <p>Вы можете посетить один из готовых домов, или строящихся – чтобы иметь полное представление о всех этапах
+          строительства. Есть готовые и строящиеся дома рядом, что позволит Вам осмотреть два объекта за одну поездку.
+        </p>
+        <p>Экскурсия проводится в сопровождении нашего технического специалиста, который ответит на все вопросы,
+          касающиеся всего цикла строительства фахверкового дома.</p>
+        <a href="tel:+78127777777" class="question-btn">Записаться на экскурсию</a>
+      </div>
+    </section>
+    <section id="house-kit" class="house-kit">
+      <div class="container">
+        <div class="section-heading">Продажа домокомплектов</div>
+        <p class="house-kit-text">Хотите построить дом Вашей мечты самостоятельно? С домокомплектом ПСК Экострой это
+          просто, как раз, два, три</p>
+        <div class="house-kit-list">
+          <div class="house-kit-card">
+            <div class="number">1</div>
+            <div class="house-kit-card-title">Доставка</div>
+            <div class="house-kit-card-descr">Домокомплект будет готов к отгрузке уже через 10 дней после заключения
+              договора.Мы всегда держим резерв бруса на заводе-изготовителе.</div>
+          </div>
+
+          <div class="house-kit-card">
+            <div class="number">2</div>
+            <div class="house-kit-card-title">Сопровождение</div>
+            <div class="house-kit-card-descr">Ведем самостоятельное строительство Покупателя от А до Я. Наш технический
+              специалист сопровождает сборку дома при помощи фото-видео связи.</div>
+          </div>
+
+          <div class="house-kit-card">
+            <div class="number">3</div>
+            <div class="house-kit-card-title">Цены</div>
+            <div class="house-kit-card-descr">За счет больших объемов продаж и благодаря нашим долгосрочным связям с
+              заводом-изготовителем мы можем предложить выгодные цены на домокомплекты по типовым проектам.</div>
+          </div>
+        </div>
+        <a href="#" class="house-kit-btn">Запросить прайс</a>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h2 class="section-heading">Отзывы</h2>
+        <div class="slider responsive">
+          <div class="review">
+            <img src="img/gTJ8W-Azmzs.jpg" alt="">
+            <div class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum</div>
+            <div class="review-name">Lorem ipsum</div>
+          </div>
+
+          <div class="review">
+            <img src="img/gTJ8W-Azmzs.jpg" alt="">
+            <div class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum</div>
+            <div class="review-name">Lorem ipsum</div>
+          </div>
+
+          <div class="review">
+            <img src="img/gTJ8W-Azmzs.jpg" alt="">
+            <div class="review-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+              esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+              qui officia deserunt mollit anim id est laborum</div>
+            <div class="review-name">Lorem ipsum</div>
+          </div>
 
         </div>
       </div>
@@ -344,30 +527,34 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="footer-container">
-      <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1069ee991e05439fc01bb587f70ba9258451dc488b095a9461c36188ed359b3d&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>
+      <iframe class="map"
+        src="https://yandex.ru/map-widget/v1/?um=constructor%3A1069ee991e05439fc01bb587f70ba9258451dc488b095a9461c36188ed359b3d&amp;source=constructor"
+        width="100%" height="500" frameborder="0"></iframe>
       <div class="contacts">
         <div class="footer-title">Наши контакты:</div>
         <a href="tel:+79219130126" class="phone-footer">+7 (921) 913-01-26</a>
-        <div class="adress-link">Шоссе Революции, д.69А, БЦ Реформа</div>
+        <div class="adress-link">Санкт-Петербург, ул. Коммуны, д.63, лит.А, пом. 5Н</div>
 
         <a class="mail-link" href="mailto:pskecostroi@gmail.com">pskecostroi@gmail.com</a>
 
         <div class="social-links">
           <a href="#">
-            <img src="img/iconfinder-social-media-applications-3instagram-4102579_113804(1).svg" alt="instagram">
+            <img src="img/instagram-brands.svg" alt="instagram">
           </a>
           <a href="#">
             <img src="img/VK_Monochrome_Compact_Logo.svg" alt="vk">
           </a>
-          
+
         </div>
 
       </div>
     </div>
 
   </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 
