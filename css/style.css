@@ -50,7 +50,7 @@ a {
 
 .header {
   position: fixed;
-  background: #ffffff;
+  background: #262626;
   width: 100%;
   z-index: 10;
 }
@@ -59,8 +59,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  
 }
 
 .logo {
@@ -73,7 +72,9 @@ a {
 .logo:hover {
   color: #eb7a10;
 }
-
+.logo img {
+  height: 80px;
+}
 .nav {
   margin-left: auto;
 }
@@ -209,6 +210,7 @@ h1 span {
   margin: 0 auto;
   max-width: 700px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 .about-list {
@@ -728,7 +730,11 @@ h1 span {
   background: #ffffff;
   padding: 30px 30px;
 }
-
+.review img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 .review-text {
   margin-top: 15px;
   margin-bottom: 15px;
