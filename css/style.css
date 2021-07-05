@@ -909,9 +909,22 @@ h1 span {
 }
 
 .promo-scandi {
-  height: 100vh;
+  padding-top: 88px;
+  margin: 0 auto;
+  max-width: 1136px;
+  display: flex;
+  align-items: center;
 }
-
+.promo-scandi .half-container{
+  display: flex;
+  align-items: center;
+}
+.promo-project-descr{
+  width: 30%;
+}
+.promo-scandi img {
+  width: 70%;
+}
 .planirovka {
   display: flex;
   align-items: center;
@@ -1038,13 +1051,19 @@ ol li {
 .footer {
   background: #262626;
   font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer-container {
+  margin: 0 auto;
+  max-width: 1136px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+
 }
 
 /* .map {
@@ -1085,8 +1104,18 @@ ol li {
 .social-links {
   margin-top: 40px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.social-links a{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  color: #ffffff;
+}
+.social-links a img {
+  margin-right: 10px;
+}
 .social-links a:first-child {
   margin-right: 10px;
 }
