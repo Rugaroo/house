@@ -862,9 +862,29 @@ h1 span {
 .grid-item {
   padding: 15px 15px;
   border: 1px solid #d1d0d0;
-  background: #ffffff;
+  background: url(../img/003-award.png), #ffffff;
+  background-size:contain, auto;
+  background-repeat: no-repeat;
+  background-position:top 150px right;
 }
-
+.grid-review {
+  background: url(../img/NicePng_improvement-png_8147598.png), #ffffff;
+  background-size:contain, auto;
+  background-repeat: no-repeat;
+  background-position:top 150px right;
+}
+.grid-call {
+  background: url(../img/pngwing.png), #ffffff;
+  background-size:contain, auto;
+  background-repeat: no-repeat;
+  background-position:top 150px right;
+}
+.grid-expi {
+  background: url(../img/pngegg.png), #ffffff;
+  background-size:contain, auto;
+  background-repeat: no-repeat;
+  background-position:top 150px right;
+}
 .grid-title {
   margin-bottom: 10px;
 }
