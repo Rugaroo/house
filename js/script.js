@@ -47,7 +47,7 @@ $('.responsive').slick({
 });
 
 $('.center').slick({
-  centerMode: true,
+  centerMode: false,
   centerPadding: '60px',
   slidesToShow: 2,
   responsive: [
@@ -55,7 +55,7 @@ $('.center').slick({
       breakpoint: 1000,
       settings: {
         arrows: true,
-        centerMode: true,
+        centerMode: false,
         centerPadding: '40px',
         slidesToShow: 1
       }
@@ -64,7 +64,7 @@ $('.center').slick({
       breakpoint: 480,
       settings: {
         arrows: true,
-        centerMode: true,
+        centerMode: false,
         centerPadding: '40px',
         slidesToShow: 1
       }
