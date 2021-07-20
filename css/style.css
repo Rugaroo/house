@@ -154,7 +154,7 @@ a {
 .promo {
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/vY8XgiAMfwU.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/vY8XgiAMfwU.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -279,7 +279,7 @@ h1 span {
 .questions {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -479,7 +479,7 @@ h1 span {
 }
 
 .individual-layout {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/f260e7ed-57bf-4d88-a56d-51d8acd80c02.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/f260e7ed-57bf-4d88-a56d-51d8acd80c02.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -644,7 +644,7 @@ h1 span {
 .house-kit {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/vY8XgiAMfwU.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/vY8XgiAMfwU.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1050,7 +1050,7 @@ ol li {
 }
 
 .promo-m {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
