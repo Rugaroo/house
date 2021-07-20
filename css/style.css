@@ -9,7 +9,7 @@
 body {
   font-size: 20px;
   line-height: 30px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #ffffff;
 }
@@ -39,11 +39,12 @@ a {
 }
 
 .section-heading {
+  font-family: 'Roboto Slab', serif;
   margin-top: 0;
   margin-bottom: 40px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 35px;
   line-height: 50px;
 }
@@ -78,7 +79,7 @@ a {
   color: #eb7a10;
 }
 
-.logo img {
+.logo-img {
   height: 80px;
 }
 
@@ -104,9 +105,10 @@ a {
 
 .nav ul li a {
   color: #db5e26;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 20px;
+  text-transform: uppercase;
 
 }
 
@@ -114,20 +116,6 @@ a {
   color: #eb7a10;
 }
 
-.header-btn {
-  font-family: 'Roboto Condensed', sans-serif;
-  border: none;
-  background: linear-gradient(rgb(216, 148, 46), #eb5510);
-  padding: 15px 20px;
-  color: #ffffff;
-  width: 200px;
-  text-align: center;
-  margin-right: 20px;
-}
-
-.header-btn:hover {
-  background: linear-gradient(rgb(228, 186, 70), #eb5510);
-}
 
 .header-socials {
   margin-top: 10px;
@@ -166,7 +154,7 @@ a {
 .promo {
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)), url(../img/vY8XgiAMfwU.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/vY8XgiAMfwU.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -264,9 +252,11 @@ h1 span {
 }
 
 .about-card-title {
+  font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 700;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .about-card-text {
@@ -289,7 +279,7 @@ h1 span {
 .questions {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(87, 87, 87, 0.6)), url(../img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -350,10 +340,13 @@ h1 span {
 }
 
 .slider-title {
+  font-family: 'Roboto Slab', serif;
   color: #000000;
   text-align: center;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 700;
   margin-bottom: 40px;
 }
 
@@ -410,49 +403,49 @@ h1 span {
 
 .techn-instr-bg {
   width: 50%;
-  background: url(../img/gTJ8W-Azmzs.jpg);
+  background: url(img/gTJ8W-Azmzs.jpg);
   height: 100%;
 }
 
 .technology-instr:nth-child(3) .techn-instr-bg {
-  background: url(../img/IMG_6220.jpg);
+  background: url(img/IMG_6220.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(4) .techn-instr-bg {
-  background: url(../img/scale_1200.jpg);
+  background: url(img/scale_1200.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(5) .techn-instr-bg {
-  background: url(../img/file.png);
+  background: url(img/file.png);
   background-size: cover;
   background-position: center;
 }
 
 .technology-instr:nth-child(6) .techn-instr-bg {
-  background: url(../img/krovlya.jpg);
+  background: url(img/krovlya.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(7) .techn-instr-bg {
-  background: url(../img/H8JaMp0idE4.jpg);
+  background: url(img/H8JaMp0idE4.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(8) .techn-instr-bg {
-  background: url(../img/79_KfWy4zUM.jpg);
+  background: url(img/79_KfWy4zUM.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(9) .techn-instr-bg {
-  background: url(../img/vent.jpg);
+  background: url(img/vent.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .technology-instr:nth-child(10) .techn-instr-bg {
-  background: url(../img/QJHT9aJDFzg.jpg);
+  background: url(img/QJHT9aJDFzg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -472,7 +465,8 @@ h1 span {
 }
 
 .techn-title {
-  font-weight: 400;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
   font-size: 23px;
   text-transform: uppercase;
   text-align: center;
@@ -481,10 +475,11 @@ h1 span {
 .tech-text {
   font-size: 16px;
   text-align: justify;
+  font-weight: 400;
 }
 
 .individual-layout {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(87, 87, 87, 0.6)), url(../img/f260e7ed-57bf-4d88-a56d-51d8acd80c02.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/f260e7ed-57bf-4d88-a56d-51d8acd80c02.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -649,7 +644,7 @@ h1 span {
 .house-kit {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/vY8XgiAMfwU.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/vY8XgiAMfwU.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -696,6 +691,7 @@ h1 span {
 }
 
 .house-kit-card-title {
+  font-family: 'Roboto Slab', serif;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 30px;
@@ -754,13 +750,13 @@ h1 span {
 .slider .slick-arrow.slick-prev,
 .c-carousel .slick-arrow.slick-prev {
   left: 0;
-  background: url('../img/keyboard-left-arrow-button_icon-icons.com_72692.svg') 0 0 / 100% no-repeat;
+  background: url('img/keyboard-left-arrow-button_icon-icons.com_72692.svg') 0 0 / 100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next,
 .c-carousel .slick-arrow.slick-next {
   right: 0;
-  background: url('../img/keyboard-right-arrow-button-1_icon-icons.com_72690.svg') 0 0 / 100% no-repeat;
+  background: url('img/keyboard-right-arrow-button-1_icon-icons.com_72690.svg') 0 0 / 100% no-repeat;
 }
 
 .slider .slick-arrow.slick-disabled,
@@ -885,7 +881,7 @@ h1 span {
 .grid-item {
   padding: 15px 15px;
   border: 1px solid #d1d0d0;
-  background: url(../img/003-award.png), #ffffff;
+  background: url(img/003-award.png), #ffffff;
   background-size: contain, auto;
   background-repeat: no-repeat;
   background-position: top 150px right;
@@ -893,6 +889,7 @@ h1 span {
 
 .grid-title {
   margin-bottom: 10px;
+  font-family: 'Roboto Slab', serif;
 }
 
 .grid-text {
@@ -1050,6 +1047,82 @@ ol li {
 .project-social-links a span {
   color: #ffffff;
   margin-left: 5px;
+}
+
+.promo-m {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 190px;
+}
+.windows,.pir {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container-m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1136px;
+  
+}
+.subtitle {
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-weight: 500;
+  text-align: center;
+}
+.window-text {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.windows .container img {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.pir {
+  background: #eceaea;
+}
+.half-container-m {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  
+}
+.half-container-m:last-child {
+  margin-top: 100px;
+}
+.pir-img {
+  margin-right: 40px;
+}
+
+.pir-text {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.pir-img-banya {
+  width: 50%;
+  margin-right: 40px;
+}
+.pir-prof-descr {
+  width: 50%;
+}
+.pir-prof-descr:first-child {
+  margin-right: 50px;
+}
+.pir-prof-descr .pir-text {
+  text-align: justify;
+  margin-bottom: 40px;
+}
+.pir-text-descr {
+  font-size: 18px;
 }
 @-webkit-keyframes animatetop {
   from {
