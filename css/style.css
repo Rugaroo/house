@@ -79,8 +79,9 @@ a {
   color: #eb7a10;
 }
 
-.logo-img {
+.logo img {
   height: 80px;
+  
 }
 
 .nav {
@@ -154,7 +155,7 @@ a {
 .promo {
   font-family: 'Roboto Slab', serif;
   color: #ffffff;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/vY8XgiAMfwU.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/vY8XgiAMfwU.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -279,7 +280,7 @@ h1 span {
 .questions {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -403,49 +404,49 @@ h1 span {
 
 .techn-instr-bg {
   width: 50%;
-  background: url(img/gTJ8W-Azmzs.jpg);
+  background: url(../img/gTJ8W-Azmzs.jpg);
   height: 100%;
 }
 
 .technology-instr:nth-child(3) .techn-instr-bg {
-  background: url(img/IMG_6220.jpg);
+  background: url(../img/IMG_6220.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(4) .techn-instr-bg {
-  background: url(img/scale_1200.jpg);
+  background: url(../img/scale_1200.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(5) .techn-instr-bg {
-  background: url(img/file.png);
+  background: url(../img/file.png);
   background-size: cover;
   background-position: center;
 }
 
 .technology-instr:nth-child(6) .techn-instr-bg {
-  background: url(img/krovlya.jpg);
+  background: url(../img/krovlya.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(7) .techn-instr-bg {
-  background: url(img/H8JaMp0idE4.jpg);
+  background: url(../img/H8JaMp0idE4.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(8) .techn-instr-bg {
-  background: url(img/79_KfWy4zUM.jpg);
+  background: url(../img/79_KfWy4zUM.jpg);
   background-size: cover;
 }
 
 .technology-instr:nth-child(9) .techn-instr-bg {
-  background: url(img/vent.jpg);
+  background: url(../img/vent.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .technology-instr:nth-child(10) .techn-instr-bg {
-  background: url(img/QJHT9aJDFzg.jpg);
+  background: url(../img/QJHT9aJDFzg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -479,7 +480,7 @@ h1 span {
 }
 
 .individual-layout {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/f260e7ed-57bf-4d88-a56d-51d8acd80c02.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/f260e7ed-57bf-4d88-a56d-51d8acd80c02.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -644,7 +645,7 @@ h1 span {
 .house-kit {
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/vY8XgiAMfwU.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/vY8XgiAMfwU.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -750,13 +751,13 @@ h1 span {
 .slider .slick-arrow.slick-prev,
 .c-carousel .slick-arrow.slick-prev {
   left: 0;
-  background: url('img/keyboard-left-arrow-button_icon-icons.com_72692.svg') 0 0 / 100% no-repeat;
+  background: url('../img/keyboard-left-arrow-button_icon-icons.com_72692.svg') 0 0 / 100% no-repeat;
 }
 
 .slider .slick-arrow.slick-next,
 .c-carousel .slick-arrow.slick-next {
   right: 0;
-  background: url('img/keyboard-right-arrow-button-1_icon-icons.com_72690.svg') 0 0 / 100% no-repeat;
+  background: url('../img/keyboard-right-arrow-button-1_icon-icons.com_72690.svg') 0 0 / 100% no-repeat;
 }
 
 .slider .slick-arrow.slick-disabled,
@@ -881,7 +882,7 @@ h1 span {
 .grid-item {
   padding: 15px 15px;
   border: 1px solid #d1d0d0;
-  background: url(img/003-award.png), #ffffff;
+  background: url(../img/003-award.png), #ffffff;
   background-size: contain, auto;
   background-repeat: no-repeat;
   background-position: top 150px right;
@@ -1050,7 +1051,7 @@ ol li {
 }
 
 .promo-m {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/ab0f0961-457f-4078-9378-ba86a5638ec5.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
